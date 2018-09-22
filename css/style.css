@@ -1,10 +1,10 @@
 /* ---- reset ---- */
 
 #particles-js{
-  margin: 0;
-  background-color: #17182f;
-height: 43%;
- position: absolute;
+ 
+  background-color: #0e111a;
+height: 70%;
+position: absolute;
   width: 100%;
       /*position: fixed;*/
     
@@ -21,21 +21,51 @@ canvas {
 
 .mid{
     
-    background-color:  #292b30;
-    color: #e5d579;
-    padding-top: 20%;
+    background-color:  #101420;
+    color: #dfbda2;
     font-family: Roboto,sans-serif;
-   
-}
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
+    
+
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 30px;
-  }
+.bottom1{
+    
+    background-color: #0e111a;
+    
+    
+}
+
+img{
+    opacity: 50%;
+}
+
+img:hover{
+    
+    opacity: 100%;
+}
+
+bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.nav-icon{
+    background-color:azure;
+    padding-top: 10px;
+    float: right;
 }
